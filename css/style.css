@@ -2,7 +2,7 @@ body {
     background-color: rgb(66, 64, 61);
     
     margin:0px;
-    @media (min-width: 100px) {
+     @media (min-width: 100px) {
         .col-1 {
             width: 8.33%;
         }
@@ -51,7 +51,7 @@ body {
             width: 100%;
         }
 
-        /* Offset section              */
+      // Offset Section
 
         .offset-1 {
             margin-left: 8.33%;
@@ -100,7 +100,7 @@ body {
         .offset-12 {
             margin-left: 100%;
         }
-    }
+    } 
 }
 
 .wrapper {
@@ -141,7 +141,7 @@ nav>ul>li>a {
 
 nav>ul>li>a:hover{
  background: red;
- pointer: cursor;
+ cursor: pointer;
 }
 
 .footer{
@@ -151,27 +151,49 @@ nav>ul>li>a:hover{
     display: flex;
     justify-content: center;
 }
-.footer footer-content{
-
-}
-
-
-
-/* .contact-us{
-    padding-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-} */
 
 .first-p{
     margin-top: 0px;
     padding-top: 10px;
 }
 
-/* .contact-form{
-    grid-column: 5 / span 6;
-} */
+.calc{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
 
-/* .user{
-    grid-column: 1 / span 11;
-} */
+.one {
+    grid-column: 5 / span 4;
+    grid-row: 1;
+    padding: 5px;
+  }
+  
+  .two {
+    grid-column: 5 / span 4;
+    grid-row: 2;
+    padding: 5px;
+  }
+  
+  .result {
+    grid-column: 5 / span 4;
+    grid-row: 3;
+    padding: 5px;
+  }
+  
+  .btn2 {
+    grid-column: 5 / span 4;
+    grid-row: 4;
+    padding: 5px;
+    /* width: 8rem; */
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  
+  
+  
+  
+  
+  
